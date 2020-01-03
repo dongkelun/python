@@ -30,5 +30,5 @@ print(df)
 df = df.rename(columns={'姓名': 'name', '年龄': 'age', '性别': 'sex', '住址': 'address', '班级': 'class'})
 print(df)
 
-df.to_csv('../data/sheet合并.csv', index=False)
+df.to_csv('../file/sheet合并.csv', index=False)
 df.to_excel('../data/sheet合并.xls', index=True)
